@@ -1,0 +1,16 @@
+{
+  "name": "Tweet Deletor",
+  "description": "Delete all your tweets from Twitter",
+  "version": "1.0",
+  "permissions": [
+    "https://twitter.com/*"
+  ],
+  "background": {
+    "scripts": ["main.js", "deletor.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Delete tweets"
+  },
+  "manifest_version": 2
+}
